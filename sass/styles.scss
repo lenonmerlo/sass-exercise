@@ -1,0 +1,26 @@
+// Variáveis
+$primary-color: #182C61;
+$secondary-color: #44bd32;
+$hover-color: #4cd137;
+$background-color: #f5f6fa;
+$font-family: Roboto, sans-serif;
+
+// Módulos
+@import 'header';
+@import 'products';
+
+// Estilos globais
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-family;
+}
+
+body {
+    background-color: $background-color;
+}
+
+li {
+    list-style: none;
+}
